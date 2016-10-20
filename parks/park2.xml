@@ -1,0 +1,76 @@
+<skatepark ka=".1 .1 .1" kd=".3 .3 .3" clouds="10" light="0 1 5">
+	<material id="mat1" kd="0.6286 0.5397 0.4004" ks="0.1796 0.1544 0.1144" ka="0.1796 0.1544 0.1144" shine="20"/>
+	<material id="rmat" kd=".1 .1 .1" ks=".2 .2 .2" ka=".005 .005 .005" shine="5"/>
+	
+	<object material="mat1" type="block" sy="6" dx="5.5" />
+	<object material="mat1" type="rollin" dx="4.5" dy="-2.5" rotate="90"/>
+	<object material="mat1" type="slope" dx="4.5" dy="-1.5" rotate="90"/>
+	<object material="mat1" type="quarterpipe" sx="2" dx="4.5" rotate="90"/>
+	<object material="mat1" type="slope" dx="4.5" sx="2" dy="2" rotate="90"/>
+	
+	<object material="mat1" type="block" sz=".5" sy="2" dx="1" dy="-2" />
+	<object material="mat1" type="slope" sz=".5" sx="2" dy="-2" dx="2" rotate="-90" />
+	<object material="mat1" type="slope" sz=".5" sx="2" dy="-2" rotate="90" />
+	<rail material="rmat" length="1" offset="0.5" height="0.3" thickness="0.05" dy="-2" rotate="180"/>
+	<rail material="rmat" length="1" height="0.3" thickness="0.05" dx="1" dy="-2" dz=".5"/>
+	<rail material="rmat" length="1" offset="0.5" height="0.3" thickness="0.05" dx="2" dy="-2"/>
+	<ledge material="mat1" railmaterial="rmat" dx="1" dy="-1" width=".25" height=".6" length="3"/>
+	
+	<object material="mat1" type="block" sz=".5" dx="1" dy="2.5" />
+	<object material="mat1" type="slope" sz=".5" dx="2" dy="2.5" rotate="-90"/>
+	<object material="mat1" type="slope" sz=".5" dy="2.5" rotate="90"/>
+	<object material="mat1" type="slope" sz=".5" dx="1" dy="1.5" rotate="180"/>
+	<object material="mat1" type="slopecornerpyramid" sz=".5" dx="2" dy="1.5" rotate="-90"/>
+	<object material="mat1" type="slopecornerpyramid" sz=".5" dy="1.5" rotate="180"/>
+	<ledge material="mat1" railmaterial="rmat" dy="2.925" width=".15" height=".3" length="1" offset=".5f" rotate="180" />
+	<ledge material="mat1" railmaterial="rmat" dx="1" dy="2.925" dz=".5" width=".15" height=".3" length="1" />
+	<ledge material="mat1" railmaterial="rmat" dx="2" dy="2.925" width=".15" height=".3" length="1" offset=".5f"/>
+
+	<object material="mat1" type="block" sz="0.75" sx="2" sy="2.5" dx="-4.5" dy="-1.75" />
+	<object material="mat1" type="block" sz=".5" sx=".5" sy="1.5" dx="-3.25" dy="-2.25" />
+	<object material="mat1" type="slope" sz=".5" sx="1.5" dx="-2.5" dy="-2.25" rotate="-90"/>
+	<object material="mat1" type="rollin" sz=".75" sx="1.5" sy="1.5" dx="-2.75" dy="-0.75" rotate="-90" />
+	<object material="mat1" type="quarterpipe" sz=".5" sx="2.5" dx="-5" dy="-1.75" dz="0.75" rotate="-90" />
+	<object material="mat1" type="block" sz="1.25" sx=".5" sy="2.5" dx="-5.75" dy="-1.75" />
+	
+	<object material="mat1" type="block" sz=".5" sx="2.5" sy=".5" dx="-4.75" dy="-.25" />
+	<object material="mat1" type="slope" sz=".25" sy=".5" dx="-4" dy="-.25" dz=".5"/>
+	<object material="mat1" type="block" sz=".5" sx="3" sy="3" dx="-4.5" dy="1.5" />
+	<object material="mat1" type="stair" sz=".5" dx="-2.5" dy=".5" rotate="-90"/>
+	<ledge material="mat1" railmaterial="rmat" dx="-2.5" dy="1" width=".15" height=".3" length="1" offset=".5f" />
+	<object material="mat1" type="slope" sz=".5" sx="2" dx="-2.5" dy="2" rotate="-90"/>
+	<rail material="rmat" length="1" offset="0.5" height="0.3" thickness="0.05" dx="-2.5" dy="2"/>
+	<object material="mat1" type="block" sz=".5" sx=".5" sy="3" dx="-5.75" dy="1.5" dz="0.5" />
+	<object material="mat1" type="quarterpipe" sz=".5" sx="1.5" dx="-5" dy="2.25" dz=".5" rotate="-90" />
+	<object material="mat1" type="rollin" sz=".5" sx="1.5" dx="-5" dy=".75" dz=".5" rotate="-90" />
+	
+	<misc type="sand" dy="4"  sx="13" sy="1" />
+	<misc type="sand" dy="-4" sx="13" sy="1" />
+	<misc type="sand" dx="7"  sx="1"  sy="9" />
+	<misc type="sand" dx="-7" sx="1"  sy="9" />
+	
+	<misc type="palmtree" dx="-7"   dy="4"/>
+	<misc type="palmtree" dx="-5" dy="4"/>
+	<misc type="palmtree" dx="-3"   dy="4"/>
+	<misc type="palmtree" dx="5"  dy="4"/>
+	<misc type="palmtree" dx="7"    dy="4"/>	
+	<misc type="palmtree" dx="-7"   dy="-4"/>
+	<misc type="palmtree" dx="-5" dy="-4"/>
+	<misc type="palmtree" dx="-3"   dy="-4"/>
+	<misc type="palmtree" dx="5"  dy="-4"/>
+	<misc type="palmtree" dx="7"    dy="-4"/>
+	<misc type="palmtree" dx="7"  dy="-2"/>
+	<misc type="palmtree" dx="7"  dy="0"/>
+	<misc type="palmtree" dx="7"  dy="2"/>
+	<misc type="palmtree" dx="-7" dy="-2"/>
+	<misc type="palmtree" dx="-7" dy="0"/>
+	<misc type="palmtree" dx="-7" dy="2"/>
+	
+	<misc type="yucca" dx="-1" dy="4"  dz="0.01" leafLen=".5"/>
+	<misc type="yucca" dx="1"  dy="4"  dz="0.01" leafLen=".5"/>
+	<misc type="yucca" dx="3"  dy="4"  dz="0.01" leafLen=".5"/>
+	<misc type="yucca" dx="-1" dy="-4" dz="0.01" leafLen=".5"/>
+	<misc type="yucca" dx="1"  dy="-4" dz="0.01" leafLen=".5"/>
+	<misc type="yucca" dx="3"  dy="-4" dz="0.01" leafLen=".5"/>
+	
+</skatepark>

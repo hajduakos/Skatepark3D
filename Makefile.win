@@ -1,0 +1,54 @@
+# Project: Skatepark
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe -D__DEBUG__
+CC   = gcc.exe -D__DEBUG__
+WINDRES = windres.exe
+RES  = 
+OBJ  = src/tinyxml/tinystr.o src/tinyxml/tinyxml.o src/tinyxml/tinyxmlerror.o src/tinyxml/tinyxmlparser.o src/cloud.o src/main.o src/objects.o src/skatepark.o src/screenshot.o $(RES)
+LINKOBJ  = src/tinyxml/tinystr.o src/tinyxml/tinyxml.o src/tinyxml/tinyxmlerror.o src/tinyxml/tinyxmlparser.o src/cloud.o src/main.o src/objects.o src/skatepark.o src/screenshot.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" -L"C:/Dev-Cpp/SDL-1.2.14/lib" C:/Dev-Cpp/lib/libopengl32.a C:/Dev-Cpp/lib/libglu32.a C:/Dev-Cpp/lib/libglut32.a  -g3 
+INCS =  -I"C:/Dev-Cpp/include"  -I"C:/Dev-Cpp/SDL-1.2.14/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include"  -I"C:/Dev-Cpp/SDL-1.2.14/include" 
+BIN  = Skatepark.exe
+CXXFLAGS = $(CXXINCS)   -g3
+CFLAGS = $(INCS)   -g3
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Skatepark.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "Skatepark.exe" $(LIBS)
+
+src/tinyxml/tinystr.o: src/tinyxml/tinystr.cpp
+	$(CPP) -c src/tinyxml/tinystr.cpp -o src/tinyxml/tinystr.o $(CXXFLAGS)
+
+src/tinyxml/tinyxml.o: src/tinyxml/tinyxml.cpp
+	$(CPP) -c src/tinyxml/tinyxml.cpp -o src/tinyxml/tinyxml.o $(CXXFLAGS)
+
+src/tinyxml/tinyxmlerror.o: src/tinyxml/tinyxmlerror.cpp
+	$(CPP) -c src/tinyxml/tinyxmlerror.cpp -o src/tinyxml/tinyxmlerror.o $(CXXFLAGS)
+
+src/tinyxml/tinyxmlparser.o: src/tinyxml/tinyxmlparser.cpp
+	$(CPP) -c src/tinyxml/tinyxmlparser.cpp -o src/tinyxml/tinyxmlparser.o $(CXXFLAGS)
+
+src/cloud.o: src/cloud.cpp
+	$(CPP) -c src/cloud.cpp -o src/cloud.o $(CXXFLAGS)
+
+src/main.o: src/main.cpp
+	$(CPP) -c src/main.cpp -o src/main.o $(CXXFLAGS)
+
+src/objects.o: src/objects.cpp
+	$(CPP) -c src/objects.cpp -o src/objects.o $(CXXFLAGS)
+
+src/skatepark.o: src/skatepark.cpp
+	$(CPP) -c src/skatepark.cpp -o src/skatepark.o $(CXXFLAGS)
+
+src/screenshot.o: src/screenshot.cpp
+	$(CPP) -c src/screenshot.cpp -o src/screenshot.o $(CXXFLAGS)

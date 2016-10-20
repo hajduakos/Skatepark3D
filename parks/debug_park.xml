@@ -1,0 +1,7 @@
+<skatepark ka=".1 .1 .1" kd=".3 .3 .3" clouds="10" light="2 1 4">
+	<material id="mat1" kd="0.6286 0.5397 0.4004" ks="0.1796 0.1544 0.1144" ka="0.1796 0.1544 0.1144" shine="20"/>
+	<material id="rmat" kd=".1 .1 .1" ks=".2 .2 .2" ka=".005 .005 .005" shine="5"/>
+	
+	<object material="mat1" type="slope" />
+	
+</skatepark>

@@ -1,0 +1,85 @@
+<skatepark ka=".1 .1 .1" kd=".3 .3 .3" clouds="10" light="-1 1 7">
+	<material id="mat1" kd="0.6286 0.5397 0.4004" ks="0.1796 0.1544 0.1144" ka="0.1796 0.1544 0.1144" shine="20"/>
+	<material id="rmat" kd=".1 .1 .1" ks=".2 .2 .2" ka=".005 .005 .005" shine="5"/>
+	
+	<object type="block" material="mat1" dx="-5.75" sx="1.5" sy="8.5" />
+	<object type="slope" material="mat1" dx="-4.5" dy="-2.5" sx="3.5" rotate="-90" />
+	<object type="slope" material="mat1" dx="-4.25" dy="0.75" sx="3" sy="1.5" sz="1.5" rotate="-90" />
+	<object type="quarterpipe" material="mat1" dx="-4.5" dy="2.75" rotate="-90" />
+	<object type="block" material="mat1" dx="-4" dy="3.75" sx="2" />
+	<object type="block" material="mat1" dx="-2" dy="3.75" sx="2" sz="0.5" />
+	<object type="block" material="mat1" dx="-1.5" dy="2.75" sz="0.5" />
+	<object type="slope" material="mat1" dx="-2.5" dy="2.75" sz="0.5" rotate="90"/>
+	<object type="slope" material="mat1" dx="-2.5" dy="3.75" dz="0.5" sz="0.5" rotate="-90"/>
+	
+	
+	
+	<rail length="1" offset="0.5" height="0.3" thickness="0.05" dx="-2.5" dy="3.75" dz="0.5" material="rmat"/>
+	<ledge material="mat1" railmaterial="rmat" dx="-0.5" dy="4.15" width=".2" height=".3" length="1" offset=".5f"/>
+	<object type="slope" material="mat1" dx="-0.5" dy="3.25" sx="2" sz="0.5" rotate="-90"/>
+	<object type="slope" material="mat1" dx="-1.5" dy="1.75" sz="0.5" rotate="180"/>
+	<object type="slopecorner" material="mat1" dx="-2.5" dy="1.75" sz="0.5" rotate="180"/>
+	<object type="slopecorner" material="mat1" dx="-0.5" dy="1.75" sz="0.5" rotate="-90"/>
+	<object type="slope" material="mat1" dx="-5.75" dy="-0.25" dz="1" sx="1.5" sz="0.5" rotate="180"/>
+	<object type="block" material="mat1" dx="-5.75" dy="0.75" dz="1" sx="1.5" sz="0.5"/>
+	<object type="slope" material="mat1" dx="-5.75" dy="1.75" dz="1" sx="1.5" sz="0.5"/>
+	<rail length="1" offset="0" height="0.3" thickness="0.05" dx="-5.75" dy="0.75" dz="1.5" rotate="90" material="rmat"/>
+	<rail length="1" offset="0.5" height="0.3" thickness="0.05" dx="-5.75" dy="-.25" dz="1" rotate="-90" material="rmat"/>
+	<rail length="1" offset="0.5" height="0.3" thickness="0.05" dx="-5.75" dy="1.75" dz="1" rotate="90" material="rmat"/>
+	<ledge material="mat1" railmaterial="rmat" dx="-6.4" dy="0.75" dz="1.5" width=".2" height=".3" length="1" offset="0" rotate="90"/>
+	<ledge material="mat1" railmaterial="rmat" dx="-6.4" dy="-.25" dz="1" width=".2" height=".3" length="1" offset=".5" rotate="-90"/>
+	<ledge material="mat1" railmaterial="rmat" dx="-6.4" dy="1.75" dz="1" width=".2" height=".3" length="1" offset=".5" rotate="90"/>
+	<rail length="1" offset="0" height="0.3" thickness="0.05" dx="-0.5" dy="-1.25" dz="0.5" material="rmat"/>
+	
+	<object type="block" material="mat1" dx="5.25" sx="2.5" sy="8.5"/>
+	<object type="block" material="mat1" dx="3.5" dy="3" sy="2.5"/>
+	<object type="slope" material="mat1" dx="2.5" dy="3" sx="2.5" rotate="90"/>
+	<object type="slopecorner" material="mat1" dx="2.5" dy="1.25" rotate="180"/>
+	<object type="slopeinnercorner" material="mat1" dx="3.5" dy="1.25" rotate="180"/>
+	<object type="slope" material="mat1" dx="3.5" dy="-0.75" sx="3" rotate="90"/>
+	<object type="block" material="mat1" dx="3.25" dy="-3.25" sx="1.5" sy="2"/>
+	<object type="block" material="mat1" dx="1.5" dy="-3.25" sx="2" sy="2" sz="0.75"/>
+	<object type="block" material="mat1" dx="-0.25" dy="-3.25" sx="1.5" sy="2" sz="0.5"/>
+	<object type="block" material="mat1" dx="-0.5" dy="-1.5" sy="1.5" sz="0.5"/>
+	<object type="slope" material="mat1" dx="2" dy="-3.25" dz="0.75" sz="0.25" sx="2" rotate="90"/>
+	<rail length="1" offset="0.25" height="0.3" thickness="0.05" dx="2" dy="-3.25" dz="0.75" rotate="180" material="rmat"/>
+	<ledge material="mat1" railmaterial="rmat" dx="2" dy="-4.15" dz="0.75" width=".2" height=".3" length="1" offset=".25" rotate="180"/>
+	<object type="slope" material="mat1" dy="-2.75" dz="0.5" sz="0.25" rotate="90"/>
+	<object type="block" material="mat1" dy="-3.75" dz="0.5" sz="0.25"/>
+	<object type="slope" material="mat1" dx="-1.5" dy="-3.75" sz="0.5" rotate="90"/>
+	<object type="stair" material="mat1" dx="-1.5" dy="-2.75" sz="0.5" rotate="90"/>
+	<rail length="1" offset="0.5" height="0.3" thickness="0.05" dx="-1.5" dy="-2.75" rotate="180" material="rmat"/>
+	<object type="slope" material="mat1" dx="-1.5" dy="-1.5" sx="1.5" sz="0.5" rotate="90"/>
+	<ledge material="mat1" railmaterial="rmat" dx="-1.5" dy="-2.15" width=".2" height=".3" length="1" offset=".5" rotate="180"/>
+	<object type="slope" material="mat1" dx="0.5" dy="-1.5" sx="1.5" sz="0.5" rotate="-90"/>
+	<ledge material="mat1" railmaterial="rmat" dx="0.5" dy="-2.15" width=".2" height=".3" length="1" offset=".5"/>
+	<ledge material="mat1" railmaterial="rmat" dx="-0.5" dy="-2.15" dz=".5" width=".2" height=".3" length="1"/>
+	<object type="slope" material="mat1" dx="-0.5" dy="-0.25" sz="0.5"/>
+	<object type="slopecornerpyramid" material="mat1" dx="-1.5" dy="-0.25" sz="0.5" rotate="90"/>
+	<object type="slopecornerpyramid" material="mat1" dx="0.5" dy="-0.25" sz="0.5"/>
+	<object type="block" material="mat1" dx="5.75" dy="-3.75" dz="1" sx="1.5" sz="0.5"/>
+	<object type="quarterpipe" material="mat1" dx="4.5" dy="-3.75" dz="1" sz="0.5" rotate="90"/>
+	<object type="quarterpipeoutercorner" material="mat1" dx="4.5" dy="-2.75" dz="1" sz="0.5" rotate="90"/>
+	<object type="quarterpipe" material="mat1" dx="5.75" dy="-2.75" dz="1" sx="1.5" sz="0.5"/>
+	<object type="block" material="mat1" dx="6.25" dy="2.5" dz="1" sx="0.5" sy="3.5" sz="0.5"/>
+	<object type="slope" material="mat1" dx="6.25" dy="0.25" dz="1" sx="0.5" sz="0.5" rotate="180"/>
+	<object type="slopecorner" material="mat1" dx="5.5" dy="0.25" dz="1" sz="0.5" rotate="180"/>
+	<object type="slope" material="mat1" dx="5.5" dy="1.25" dz="1" sz="0.5" rotate="90"/>
+	<object type="quarterpipe" material="mat1" dx="5.5" dy="2.25" dz="1" sz="0.5" rotate="90"/>
+	<object type="rollin" material="mat1" dx="5.5" dy="3.5" dz="1" sx="1.5" sz="0.5" rotate="90"/>
+	
+	<misc type="sand" dy="5.25" sy="1" sx="12"/>
+	<misc type="sand" dy="-5.25" sy="1" sx="12"/>
+	<misc type="palmtree" dy="5.25" dx="1" blockNo="7" leafLen="0.8"/>
+	<misc type="palmtree" dy="5.25" dx="3" blockNo="7" leafLen="0.8"/>
+	<misc type="palmtree" dy="5.25" dx="5" blockNo="7" leafLen="0.8"/>
+	<misc type="palmtree" dy="5.25" dx="-1" blockNo="7" leafLen="0.8"/>
+	<misc type="palmtree" dy="5.25" dx="-3" blockNo="7" leafLen="0.8"/>
+	<misc type="palmtree" dy="5.25" dx="-5" blockNo="7" leafLen="0.8"/>
+	<misc type="palmtree" dy="-5.25" dx="1" blockNo="7" leafLen="0.8"/>
+	<misc type="palmtree" dy="-5.25" dx="3" blockNo="7" leafLen="0.8"/>
+	<misc type="palmtree" dy="-5.25" dx="5" blockNo="7" leafLen="0.8"/>
+	<misc type="palmtree" dy="-5.25" dx="-1" blockNo="7" leafLen="0.8"/>
+	<misc type="palmtree" dy="-5.25" dx="-3" blockNo="7" leafLen="0.8"/>
+	<misc type="palmtree" dy="-5.25" dx="-5" blockNo="7" leafLen="0.8"/>
+</skatepark>
